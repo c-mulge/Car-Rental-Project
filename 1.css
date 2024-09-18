@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: blue;*/ 
+     
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #345851;
+    padding: 10px 20px;
+    position: relative;
+}
+
+
+    .logo a {
+        display: flex;
+        align-items: center;
+        background-color: #d10e0e; /* Background color for the logo area */
+        padding: 5px;
+        border-radius: 8px; /* Rounded corners */
+    }
+    
+    .logo img {
+        width: 50px; /* Increased logo size */
+        height: auto; /* Maintain the aspect ratio */
+        border: 2px solid #fff; /* Optional: add a border around the logo */
+        border-radius: 5px; /* Optional: make the logo corners slightly rounded */
+    }
+
+.middle-btns {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.middle-btns a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;  /* Border for visibility */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.middle-btns a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent on hover */
+    color: #fff;
+}
+
+.auth-buttons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent on hover */
+    color: #fff;
+}
